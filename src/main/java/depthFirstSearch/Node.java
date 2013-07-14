@@ -10,6 +10,8 @@ package depthFirstSearch;
 public class Node {
     private Integer value;
     private Boolean visited = false;
+    private Node leftNode;
+    private Node rightNode;
 
     public Node (Integer i){
          this.value = i;
@@ -27,4 +29,19 @@ public class Node {
         return this.value;
     }
 
+    public Node getLeftNode() {
+        return leftNode;
+    }
+
+    public Node getRightNode() {
+        return rightNode;
+    }
+
+    public void setRightNode(Node rightNode) {
+        this.rightNode = rightNode;
+    }
+
+    public void setLeftNode(Node leftNode) {
+        this.leftNode = leftNode;
+    }
 }
