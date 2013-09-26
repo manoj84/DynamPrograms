@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Time: 10:03 PM
  * To change this template use File | Settings | File Templates.
  */
-public class StringManipulation {
+public class StringManipulationOld {
 
     public static void main(String args[]) {
         if (args.length < 1) {
@@ -16,7 +16,7 @@ public class StringManipulation {
                     "java StringManipulation path-to-file");
             System.exit(1);
         }
-        StringManipulation stringManipulate = new StringManipulation();
+        StringManipulation stringManipulateOld = new StringManipulationOld();
         stringManipulate.compact(args[0]);
         //String path = "//home//manoj//IdeaProjects//Rackspace//src//test.txt";
         //stringManipulate.compact(path);
