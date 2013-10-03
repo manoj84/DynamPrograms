@@ -1,4 +1,4 @@
-package depthFirstSearch;
+package main.java.depthFirstSearch;
 
 /**
  * Created with IntelliJ IDEA.

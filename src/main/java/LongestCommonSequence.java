@@ -5,6 +5,9 @@
  * Time: 11:29 PM
  * To change this template use File | Settings | File Templates.
  */
+
+package main.java;
+
 public class LongestCommonSequence {
 
     public static void main(String args[]) {

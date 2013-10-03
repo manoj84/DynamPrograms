@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.Arrays;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Arrays;
  * Time: 12:12 PM
  * To change this template use File | Settings | File Templates.
  */
+
 public class BlockTower {
 
     public int getTallest(int[] blockHeights) {

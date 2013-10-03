@@ -1,6 +1,6 @@
-package binaryTrees;
+package main.java.binaryTrees;
 
-import depthFirstSearch.Node;
+import main.java.depthFirstSearch.Node;
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,7 +26,7 @@ public class InorderPreOrdertoBST {
     private void construct(int[] inOrder, int[] preOrder) {
         this.inOrder = inOrder;
         this.preOrder = preOrder;
-        int root = searchInOrder(this.inOrder[pre]);
+       // int root = searchInOrder(this.inOrder[pre]);
        // Node rootNode = new Node (root);
         /*rootNode.setLeftNode(new Node(construct(rootNode, );));
         rootNode.setRightNode(new Node(construct(rootNode);));*/
