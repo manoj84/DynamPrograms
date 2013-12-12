@@ -1,0 +1,4 @@
+var nonRepChar = function(data){
+    
+    
+}
