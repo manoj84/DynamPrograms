@@ -1,5 +1,7 @@
 /**
  * Takes an Inorder and constructs a Binary Search tree with minimal Height. 
+ * 
+ * @author manoj
  */
 
 package trees.execute;
