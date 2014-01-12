@@ -6,6 +6,7 @@
 
 package tree.core;
 
+
 /**
  * Binary tree node implementation: Pointers to children
  * 
@@ -78,4 +79,5 @@ public class BSTNode<Key, E> implements BinNode<E> {
     public boolean isLeaf() {
         return (left == null) && (right == null);
     }
+
 }
