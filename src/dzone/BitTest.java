@@ -1,14 +1,17 @@
 package dzone;
 
+
 public class BitTest {
 
     public static void setBit(int i, int p) {
-        int mask = 1 << p;
-        System.out.println("Before Set Bit " + Integer.toBinaryString(i)
-                + "and int is " + i);
-        i = i | mask;
-        System.out.println("After Set Bit " + Integer.toBinaryString(i)
-                + " and int is " + i);
+        // int mask = 1 << p;
+        // System.out.println("Before Set Bit " + Integer.toBinaryString(i)
+        // + "and int is " + i);
+        // i = i | mask;
+        // System.out.println("After Set Bit " + Integer.toBinaryString(i)
+        // + " and int is " + i);
+        System.out.println(Integer.toBinaryString(144));
+
     }
 
     public static void main(String args[]) {
