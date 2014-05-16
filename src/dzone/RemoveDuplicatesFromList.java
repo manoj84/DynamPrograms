@@ -1,10 +1,10 @@
 package dzone;
 
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import scala.collection.mutable.HashSet;
+import java.util.Set;
 
 public class RemoveDuplicatesFromList {
 
@@ -41,7 +41,7 @@ public class RemoveDuplicatesFromList {
     }
 
     private static void removeDuplicatesFromList(List<String> test) {
-        HashSet<String> set = new HashSet<String>();
+        Set<String> set = new HashSet<String>();
 
         Iterator<String> iterator = test.listIterator();
 
