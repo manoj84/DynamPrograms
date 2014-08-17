@@ -25,7 +25,7 @@ public final class TreeUtil {
 
         BSTNode<Integer, String> rootRight = root.right();
         BSTNode<Integer, String> leftSecond = new BSTNode<Integer, String>();
-        leftSecond.setKey(4);
+        leftSecond.setKey(7);
         rootRight.setLeft(leftSecond);
         BSTNode<Integer, String> rightSecond = new BSTNode<Integer, String>();
         rightSecond.setKey(12);
