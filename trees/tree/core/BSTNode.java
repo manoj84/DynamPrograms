@@ -6,6 +6,8 @@
 
 package tree.core;
 
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Binary tree node implementation: Pointers to children
@@ -78,6 +80,15 @@ public class BSTNode<Key, E> implements BinNode<E> {
     /** @return True if a leaf node, false otherwise */
     public boolean isLeaf() {
         return (left == null) && (right == null);
+    }
+
+    /** @retyurn All children of current node **/
+    @SuppressWarnings("unchecked")
+    public List<BSTNode<Integer, String>> getChildren() {
+        List<BSTNode<Integer, String>> list = new LinkedList<BSTNode<Integer, String>>();
+        list.add((BSTNode<Integer, String>) left);
+        list.add((BSTNode<Integer, String>) right);
+        return list;
     }
 
 }
