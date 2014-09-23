@@ -35,4 +35,24 @@ public final class TreeUtil {
 
     }
 
+    public static BSTNode<Integer, String> getUnBalancedTree() {
+
+        BSTNode<Integer, String> root = new BSTNode<Integer, String>();
+        root.setKey(6);
+        BSTNode<Integer, String> firstLeft = new BSTNode<Integer, String>();
+        firstLeft.setKey(3);
+        root.setLeft(firstLeft);
+        BSTNode<Integer, String> firstRight = new BSTNode<Integer, String>();
+        firstRight.setKey(10);
+        root.setRight(firstRight);
+
+        BSTNode<Integer, String> secondLeft = new BSTNode<Integer, String>();
+        firstLeft.setLeft(secondLeft);
+        BSTNode<Integer, String> thirdLeft = new BSTNode<Integer, String>();
+        secondLeft.setLeft(thirdLeft);
+
+        return root;
+
+    }
+
 }
