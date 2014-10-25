@@ -1,5 +1,19 @@
 package trees.execute;
 
+/**
+ *  ==========================================
+ *            Binary Tree
+ *      =================================   
+ *                  6
+ *             3          10
+ *         1      5    7     12
+ * 
+ *   ======================================
+ * 
+ * 
+ * 
+ */
+
 import tree.core.BSTNode;
 
 public final class TreeUtil {

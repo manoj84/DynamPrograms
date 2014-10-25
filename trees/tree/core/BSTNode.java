@@ -23,6 +23,13 @@ public class BSTNode<Key, E> implements BinNode<E> {
     private BSTNode<Key, E> left; // Pointer to left child
     private BSTNode<Key, E> right; // Pointer to right child
 
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Key is " + key + " ");
+        // builder.append("Element is " + element);
+        return builder.toString();
+    }
+
     /** Constructors */
     public BSTNode() {
         left = right = null;
