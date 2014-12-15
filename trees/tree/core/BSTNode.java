@@ -22,11 +22,13 @@ public class BSTNode<Key, E> implements BinNode<E> {
     private E element; // Element for this node
     private BSTNode<Key, E> left; // Pointer to left child
     private BSTNode<Key, E> right; // Pointer to right child
+    private int height = 0;
 
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append("Key is " + key + " ");
-        // builder.append("Element is " + element);
+        builder.append("Element is " + element + " ");
+        builder.append("Height is " + height);
         return builder.toString();
     }
 
@@ -96,6 +98,14 @@ public class BSTNode<Key, E> implements BinNode<E> {
         list.add((BSTNode<Integer, String>) left);
         list.add((BSTNode<Integer, String>) right);
         return list;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
     }
 
 }

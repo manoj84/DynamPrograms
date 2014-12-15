@@ -4,12 +4,12 @@ package trees.execute;
  *  ==========================================
  *            Binary Tree
  *      =================================   
- *                  6
- *             3          10
- *         1      5    7     12
- * 
+ *                   6
+ *             2        10
+ *         1      4        12
+ *             3     5   11
  *   ======================================
- * 
+ *   Check wiki pedia for in order pre order tree traversal for diagram
  * 
  * 
  */
@@ -22,28 +22,51 @@ public final class TreeUtil {
 
         BSTNode<Integer, String> root = new BSTNode<Integer, String>();
         root.setKey(6);
+        root.setElement("F");
         BSTNode<Integer, String> left = new BSTNode<Integer, String>();
-        left.setKey(3);
+        left.setKey(2);
+        left.setElement("B");
         root.setLeft(left);
         BSTNode<Integer, String> right = new BSTNode<Integer, String>();
         right.setKey(10);
+        right.setElement("G");
         root.setRight(right);
 
         BSTNode<Integer, String> rootLeft = root.left();
         BSTNode<Integer, String> leftFirst = new BSTNode<Integer, String>();
         leftFirst.setKey(1);
+        leftFirst.setElement("A");
         rootLeft.setLeft(leftFirst);
         BSTNode<Integer, String> rightFirst = new BSTNode<Integer, String>();
-        rightFirst.setKey(5);
+        rightFirst.setKey(4);
+        rightFirst.setElement("D");
         rootLeft.setRight(rightFirst);
 
+        BSTNode<Integer, String> rootLeftRight = rootLeft.right();
+
+        BSTNode<Integer, String> leftThird = new BSTNode<Integer, String>();
+        leftThird.setKey(3);
+        leftThird.setElement("C");
+        rootLeftRight.setLeft(leftThird);
+
+        BSTNode<Integer, String> rightThird = new BSTNode<Integer, String>();
+        rightThird.setKey(5);
+        rightThird.setElement("E");
+        rootLeftRight.setRight(rightThird);
+
         BSTNode<Integer, String> rootRight = root.right();
-        BSTNode<Integer, String> leftSecond = new BSTNode<Integer, String>();
-        leftSecond.setKey(7);
-        rootRight.setLeft(leftSecond);
+
         BSTNode<Integer, String> rightSecond = new BSTNode<Integer, String>();
         rightSecond.setKey(12);
-        rootRight.setRight(rightSecond);
+        rightSecond.setElement("I");
+        right.setRight(rightSecond);
+
+        BSTNode<Integer, String> rootRightRight = rootRight.right();
+
+        BSTNode<Integer, String> leftFourth = new BSTNode<Integer, String>();
+        leftFourth.setKey(7);
+        leftFourth.setElement("H");
+        rightSecond.setLeft(leftFourth);
 
         return root;
 
