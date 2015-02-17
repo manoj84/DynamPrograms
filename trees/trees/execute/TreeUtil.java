@@ -28,7 +28,7 @@ public final class TreeUtil {
         left.setElement("B");
         root.setLeft(left);
         BSTNode<Integer, String> right = new BSTNode<Integer, String>();
-        right.setKey(10);
+        right.setKey(7);
         right.setElement("G");
         root.setRight(right);
 
@@ -64,7 +64,7 @@ public final class TreeUtil {
         BSTNode<Integer, String> rootRightRight = rootRight.right();
 
         BSTNode<Integer, String> leftFourth = new BSTNode<Integer, String>();
-        leftFourth.setKey(7);
+        leftFourth.setKey(10);
         leftFourth.setElement("H");
         rightSecond.setLeft(leftFourth);
 

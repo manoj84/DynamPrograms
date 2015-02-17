@@ -91,7 +91,7 @@ public class BSTNode<Key, E> implements BinNode<E> {
         return (left == null) && (right == null);
     }
 
-    /** @retyurn All children of current node **/
+    /** @return All children of current node **/
     @SuppressWarnings("unchecked")
     public List<BSTNode<Integer, String>> getChildren() {
         List<BSTNode<Integer, String>> list = new LinkedList<BSTNode<Integer, String>>();
