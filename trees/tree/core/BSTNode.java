@@ -23,6 +23,7 @@ public class BSTNode<Key, E> implements BinNode<E> {
     private BSTNode<Key, E> left; // Pointer to left child
     private BSTNode<Key, E> right; // Pointer to right child
     private int height = 0;
+    private BSTNode<Key, E> parent;
 
     public String toString() {
         StringBuilder builder = new StringBuilder();
@@ -80,6 +81,14 @@ public class BSTNode<Key, E> implements BinNode<E> {
     /** Get and set the right child */
     public BSTNode<Key, E> right() {
         return right;
+    }
+
+    public void setParent(BSTNode<Key, E> p) {
+        this.parent = p;
+    }
+
+    public BSTNode<Key, E> getParent() {
+        return this.parent;
     }
 
     public void setRight(BSTNode<Key, E> p) {
