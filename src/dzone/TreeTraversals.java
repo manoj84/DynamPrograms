@@ -2,8 +2,8 @@ package dzone;
 
 import java.util.Stack;
 
-import tree.core.BSTNode;
-import trees.execute.TreeUtil;
+import code.trees.tree.core.BSTNode;
+import code.trees.trees.execute.TreeUtil;
 
 public class TreeTraversals {
 

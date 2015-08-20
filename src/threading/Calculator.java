@@ -1,5 +1,3 @@
-package threading;
-
 public class Calculator extends Thread {
     public int finalVal = 0;
 

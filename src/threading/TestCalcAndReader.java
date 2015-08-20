@@ -1,4 +1,3 @@
-package threading;
 
 public class TestCalcAndReader {
 

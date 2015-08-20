@@ -1,6 +1,3 @@
-package threading;
-
-
 public class Reader extends Thread {
 
     private Calculator calc = null;

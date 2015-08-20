@@ -1,6 +1,6 @@
 package dzone;
 
-import tree.core.BSTNode;
+import code.trees.tree.core.BSTNode;
 
 public class SortedArrayToBinaryTree {
 
