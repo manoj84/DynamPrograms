@@ -34,7 +34,7 @@ public class CC5085262709260288 {
             memCache.put(i, values);
         }
 
-        for (int j = 20; j < 29; j++) {
+        for (int j = 20; j < 30; j++) {
             if(!memCache.containsKey(j-10)){
                 continue;
             }
