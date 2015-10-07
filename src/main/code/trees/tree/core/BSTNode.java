@@ -2,12 +2,15 @@
     Structures and Algorithm Analysis, 3rd Edition (Java)" 
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
+
+    Modified by Manoj M to ovveride equls and Hashcode.
  */
 
 package code.trees.tree.core;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Binary tree node implementation: Pointers to children
@@ -116,5 +119,4 @@ public class BSTNode<Key, E> implements BinNode<E> {
     public void setHeight(int height) {
         this.height = height;
     }
-
 }

@@ -1,2 +1,8 @@
+*.class
+*.jar
+*.xml
+.idea/
 build/
-test/
+.DS_Store
+
+
