@@ -1,8 +1,8 @@
 *.class
 *.jar
-*.xml
 .idea/
 build/
 .DS_Store
+
 
 
