@@ -16,11 +16,15 @@
       <sourceFolder url="file://$MODULE_DIR$/src/rackspace" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/srm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/dynamicProgramming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/coursera" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="gs-algo-1.2-javadoc" level="project" />
-    <orderEntry type="library" name="gs-core-1.2-javadoc" level="project" />
-    <orderEntry type="library" name="gs-ui-1.2-sources" level="project" />
+    <orderEntry type="library" exported="" name="gs-algo-1.2-javadoc" level="project" />
+    <orderEntry type="library" exported="" name="gs-core-1.2-javadoc" level="project" />
+    <orderEntry type="library" exported="" name="gs-ui-1.2-sources" level="project" />
+    <orderEntry type="library" name="algs4-package" level="project" />
+    <orderEntry type="library" name="introcs" level="project" />
+    <orderEntry type="library" name="algs4" level="project" />
   </component>
 </module>
